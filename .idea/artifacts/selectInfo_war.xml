@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="selectInfo:war">
+    <output-path>$PROJECT_DIR$/selectInfo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>selectInfo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="selectInfo:war exploded" />
+    </root>
+  </artifact>
+</component>
